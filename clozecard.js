@@ -62,62 +62,62 @@ inquirer.prompt([{
 }
 ]).then(function (inquirer) {
 
-    if (inquirer.answer1 === question1.back) {
-        console.log("You're right!")
+    if (inquirer.answer1 === question1.clozeDeleted) {
+        console.log("You're right, the full sentence was", question1.fullText)
     } else {
         console.log(("Thats incorrect, the correct answer is", question1.clozeDeleted))
     }
 
-    if (inquirer.answer2 === question2.back) {
-        console.log("You're right!")
+    if (inquirer.answer2 === question2.clozeDeleted) {
+        console.log("You're right, the full sentence was", question2.fullText)
     } else {
         console.log(("Thats incorrect, the correct answer is", question2.clozeDeleted))
     }
 
-    if (inquirer.answer3 === question3.back) {
-        console.log("You're right!")
+    if (inquirer.answer3 === question3.clozeDeleted) {
+        console.log("You're right, the full sentence was", question3.fullText)
     } else {
         console.log(("Thats incorrect, the correct answer is", question3.clozeDeleted))
     }
 
-    if (inquirer.answer4 === question4.back) {
-        console.log("You're right!")
+    if (inquirer.answer4 === question4.clozeDeleted) {
+        console.log("You're right, the full sentence was", question4.fullText)
     } else {
         console.log(("Thats incorrect, the correct answer is", question4.clozeDeleted))
     }
 
-    if (inquirer.answer5 === question5.back) {
-        console.log("You're right!")
+    if (inquirer.answer5 === question5.clozeDeleted) {
+        console.log("You're right, the full sentence was", question5.fullText)
     } else {
         console.log(("Thats incorrect, the correct answer is", question5.clozeDeleted))
     }
 
-    if (inquirer.answer6 === question6.back) {
-        console.log("You're right!")
+    if (inquirer.answer6 === question6.clozeDeleted) {
+        console.log("You're right, the full sentence was", question6.fullText)
     } else {
         console.log(("Thats incorrect, the correct answer is", question6.clozeDeleted))
     }
 
-    if (inquirer.answer7 === question7.back) {
-        console.log("You're right!")
+    if (inquirer.answer7 === question7.clozeDeleted) {
+        console.log("You're right, the full sentence was", question7.fullText)
     } else {
         console.log(("Thats incorrect, the correct answer is", question7.clozeDeleted))
     }
 
-    if (inquirer.answer8 === question8.back) {
-        console.log("You're right!")
+    if (inquirer.answer8 === question8.clozeDeleted) {
+        console.log("You're right, the full sentence was", question8.fullText)
     } else {
         console.log(("Thats incorrect, the correct answer is", question8.clozeDeleted))
     }
 
-    if (inquirer.answer9 === question9.back) {
-        console.log("You're right!")
+    if (inquirer.answer9 === question9.clozeDeleted) {
+        console.log("You're right, the full sentence was", question9.fullText)
     } else {
         console.log(("Thats incorrect, the correct answer is", question9.clozeDeleted))
     }
 
-    if (inquirer.answer10 === question10.back) {
-        console.log("You're right!")
+    if (inquirer.answer10 === question10.clozeDeleted) {
+        console.log("You're right, the full sentence was", question10.fullText)
     } else {
         console.log(("Thats incorrect, the correct answer is", question10.clozeDeleted))
     }
