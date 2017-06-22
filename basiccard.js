@@ -105,61 +105,61 @@ inquirer.prompt([{
     if (inquirer.answer1 === question1.back) {
         console.log("You're right!")
     } else {
-        console.log(("Thats incorrect, the correct answer is", question1.back))
+        console.log("That's incorrect, the correct answer is " + "'" + question1.back + "'")
     }
 
     if (inquirer.answer2 === question2.back) {
         console.log("You're right!")
     } else {
-        console.log(("Thats incorrect, the correct answer is", question2.back))
+        console.log("That's incorrect, the correct answer is " + "'" + question2.back + "'")
     }
 
     if (inquirer.answer3 === question3.back) {
         console.log("You're right!")
     } else {
-        console.log(("Thats incorrect, the correct answer is", question3.back))
+        console.log("That's incorrect, the correct answer is " + "'" + question3.back + "'")
     }
 
     if (inquirer.answer4 === question4.back) {
         console.log("You're right!")
     } else {
-        console.log(("Thats incorrect, the correct answer is", question4.back))
+        console.log("That's incorrect, the correct answer is " + "'" + question4.back + "'")
     }
 
     if (inquirer.answer5 === question5.back) {
         console.log("You're right!")
     } else {
-        console.log(("Thats incorrect, the correct answer is", question5.back))
+        console.log("That's incorrect, the correct answer is " + "'" + question5.back + "'")
     }
 
     if (inquirer.answer6 === question6.back) {
         console.log("You're right!")
     } else {
-        console.log(("Thats incorrect, the correct answer is", question6.back))
+        console.log("That's incorrect, the correct answer is " + "'" + question6.back + "'")
     }
 
     if (inquirer.answer7 === question7.back) {
         console.log("You're right!")
     } else {
-        console.log(("Thats incorrect, the correct answer is", question7.back))
+        console.log("That's incorrect, the correct answer is " + "'" + question7.back + "'")
     }
 
     if (inquirer.answer8 === question8.back) {
         console.log("You're right!")
     } else {
-        console.log(("Thats incorrect, the correct answer is", question8.back))
+        console.log("That's incorrect, the correct answer is " + "'" + question8.back + "'")
     }
 
     if (inquirer.answer9 === question9.back) {
         console.log("You're right!")
     } else {
-        console.log(("Thats incorrect, the correct answer is", question9.back))
+        console.log("That's incorrect, the correct answer is " + "'" + question9.back + "'")
     }
 
     if (inquirer.answer10 === question10.back) {
         console.log("You're right!")
     } else {
-        console.log(("Thats incorrect, the correct answer is", question10.back))
+        console.log("That's incorrect, the correct answer is " + "'" + question10.back + "'")
     }
 
 });
