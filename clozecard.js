@@ -6,16 +6,16 @@ var app = require('./app.js');
 var inquirer = require("inquirer");
 
 // Using constructors to build new objects based on new questions
-var question1 = new app.clozecard("Pennsylvania", "... is the only American state to begin with the letter 'P'?", "Pennsylvania is the only American state to begin with the letter 'P'?");
-var question2 = new app.clozecard("Madrid", "... is the capital city of Spain?", "Madrid is the capital city of Spain?");
-var question3 = new app.clozecard("Red Lake", "... is the largest lake completely inside Minnesota?", "Red Lake is the largest lake completely inside Minnesota?");
+var question1 = new app.clozecard("Pennsylvania", "... is the only American state to begin with the letter 'P'", "Pennsylvania is the only American state to begin with the letter 'P'");
+var question2 = new app.clozecard("Madrid", "... is the capital city of Spain", "Madrid is the capital city of Spain?");
+var question3 = new app.clozecard("Red Lake", "... is the largest lake completely inside Minnesota", "Red Lake is the largest lake completely inside Minnesota");
 var question4 = new app.clozecard("blue", "The three primary colors are Red, ..., and Yellow", "The three primary colors are Red, ___, and Yellow");
-var question5 = new app.clozecard("great wall of china", "The ... is the only man-made landmark that you can see from the moon?", "The great wall of china is the only man-made landmark that you can see from the moon?");
-var question6 = new app.clozecard("whale shark", "The ... is the largest fish in the ocean?", "The whale shark is the largest fish in the ocean?");
-var question7 = new app.clozecard("nepal", "... has 8/10 of the highest mountains in the world?", "nepal has 8/10 of the highest mountains in the world?");
-var question8 = new app.clozecard("polish", "The word ... its pronunciation when the first letter is capitalized?", "The word polish its pronunciation when the first letter is capitalized?");
+var question5 = new app.clozecard("great wall of china", "The ... is the only man-made landmark that you can see from the moon", "The great wall of china is the only man-made landmark that you can see from the moon");
+var question6 = new app.clozecard("whale shark", "The ... is the largest fish in the ocean", "The whale shark is the largest fish in the ocean");
+var question7 = new app.clozecard("nepal", "... has 8/10 of the highest mountains in the world", "nepal has 8/10 of the highest mountains in the world");
+var question8 = new app.clozecard("polish", "The word ... its pronunciation when the first letter is capitalized", "The word polish its pronunciation when the first letter is capitalized");
 var question9 = new app.clozecard("steel", "Sound travels fasted through ...", "Sound travels fasted through steel");
-var question10 = new app.clozecard("jupiter", "... is the largest planet in the solar system?", "Jupiter is the largest planet in the solar system?");
+var question10 = new app.clozecard("jupiter", "... is the largest planet in the solar system", "Jupiter is the largest planet in the solar system");
 
 // Prompting the questions
 inquirer.prompt([{
