@@ -37,10 +37,14 @@
 // 10: What is the largest planet in the solar system?
 //Jupiter
 
+// Linking app file to get exports
 var app = require('./app.js');
+
+// Getting npm inquirer
 var inquirer = require("inquirer");
 
 
+// Using constructors to build new objects based on new questions
 var question1 = new app.basiccard("1: What is the only American state to begin with the letter 'P'?", "pennsylvania");
 var question2 = new app.basiccard("2: What is the capital city of Spain?", "madrid");
 var question3 = new app.basiccard("3: What is the largest lake completely inside Minnesota?", "red lake");
@@ -53,6 +57,7 @@ var question9 = new app.basiccard("9: Does sound travel faster through water or 
 var question10 = new app.basiccard("10: What is the largest planet in the solar system?", "jupiter");
 
 
+// Prompting the questions
 inquirer.prompt([{
     type: 'input',
     name: "answer1",
@@ -94,6 +99,8 @@ inquirer.prompt([{
     name: "answer10",
     message: question10.front
 }
+
+// Giving the user the answers and comparing whether theyre right or wrong
 ]).then(function (inquirer) {
 
     if (inquirer.answer1 === question1.back) {

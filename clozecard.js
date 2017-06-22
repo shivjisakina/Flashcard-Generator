@@ -1,8 +1,11 @@
 
+// Linking app file to get exports
 var app = require('./app.js');
+
+// Getting npm inquirer
 var inquirer = require("inquirer");
 
-
+// Using constructors to build new objects based on new questions
 var question1 = new app.clozecard("Pennsylvania", "... is the only American state to begin with the letter 'P'?", "Pennsylvania is the only American state to begin with the letter 'P'?");
 var question2 = new app.clozecard("Madrid", "... is the capital city of Spain?", "Madrid is the capital city of Spain?");
 var question3 = new app.clozecard("Red Lake", "... is the largest lake completely inside Minnesota?", "Red Lake is the largest lake completely inside Minnesota?");
@@ -14,6 +17,7 @@ var question8 = new app.clozecard("polish", "The word ... its pronunciation when
 var question9 = new app.clozecard("steel", "Sound travels fasted through ...", "Sound travels fasted through steel");
 var question10 = new app.clozecard("jupiter", "... is the largest planet in the solar system?", "Jupiter is the largest planet in the solar system?");
 
+// Prompting the questions
 inquirer.prompt([{
     type: 'input',
     name: "answer1",
@@ -55,6 +59,8 @@ inquirer.prompt([{
     name: "answer10",
     message: question10.partialText
 }
+
+// Giving the user the answers and comparing whether theyre right or wrong
 ]).then(function (inquirer) {
 
     if (inquirer.answer1 === question1.clozeDeleted) {
