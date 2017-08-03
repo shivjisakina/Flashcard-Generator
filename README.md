@@ -1,7 +1,5 @@
 # Flashcard-Generator
 
-## Overview
-
 ### This was a project for week 6 of the UCF Coding Bootcamp
 
 ------------------------------------------------------------------------------------------------------------------------------
